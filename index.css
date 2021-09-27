@@ -1,0 +1,43 @@
+body{
+    background-color: beige; 
+    justify-content: center;
+    color: aqua;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    background-image: url('treeCopy.png');
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    background-size: cover;
+    background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+    
+}
+h2#gifAnimate{
+    font-size: 5rem;
+    background-image: url('gifAnimate.gif');
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2#gradient{
+    font-size: 4rem;
+    background-image: linear-gradient(to left ,red,rgb(255, 251, 0));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+/*
+mainly used properties and the values of the properties 
+
+1.background-clip : text;
+2. background-size : cover;
+3.color : transparent;
+4. webkit-background-clip: text;
+*/
